@@ -18,11 +18,8 @@ import org.apache.hadoop.hive.ql.exec.UDF;
          if(compare(source, "desktop"))
             return "web";
 
-         if(compare(source, "mobile"))
-            return source;
-
          if(source != null)
-            return "api." + source;
+            return source;
 
          if(os == null ||
             os.equalsIgnoreCase("null") ||
