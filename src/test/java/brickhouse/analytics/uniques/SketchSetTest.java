@@ -423,7 +423,7 @@ public class SketchSetTest {
 		GetDeviceUDF test = new GetDeviceUDF();
 		String result = test.evaluate("Windows 8", "mobile-app");
 		System.out.println(result);
-		Assert.assertTrue(result.equals("api.mobile-app"));
+		Assert.assertTrue(result.equals("mobile-app"));
 	}
 
 	@Test
